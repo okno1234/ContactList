@@ -22,6 +22,10 @@
 		3FF74CB72C5510D600A27C7A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF74CB62C5510D600A27C7A /* ModelData.swift */; };
 		3FF74CB92C55143000A27C7A /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF74CB82C55143000A27C7A /* ContactList.swift */; };
 		3FF74CBB2C55215200A27C7A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF74CBA2C55215200A27C7A /* MapView.swift */; };
+		C3B0D82B2C59D61E00AA3EB6 /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = C3B0D82A2C59D61E00AA3EB6 /* contact.json */; };
+		C3B0D82D2C59DA1C00AA3EB6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D82C2C59DA1C00AA3EB6 /* WelcomeView.swift */; };
+		C3B0D8332C59DF8E00AA3EB6 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D8322C59DF8E00AA3EB6 /* GreetingView.swift */; };
+		C3B0D8352C59E32D00AA3EB6 /* RMITView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D8342C59E32D00AA3EB6 /* RMITView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		3FF74CB62C5510D600A27C7A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		3FF74CB82C55143000A27C7A /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		3FF74CBA2C55215200A27C7A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C3B0D82A2C59D61E00AA3EB6 /* contact.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
+		C3B0D82C2C59DA1C00AA3EB6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C3B0D8322C59DF8E00AA3EB6 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		C3B0D8342C59E32D00AA3EB6 /* RMITView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMITView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,9 @@
 				3FF74CB42C55108C00A27C7A /* ContactRow.swift */,
 				3FF74CB82C55143000A27C7A /* ContactList.swift */,
 				3FF74CBA2C55215200A27C7A /* MapView.swift */,
+				C3B0D82C2C59DA1C00AA3EB6 /* WelcomeView.swift */,
+				C3B0D8322C59DF8E00AA3EB6 /* GreetingView.swift */,
+				C3B0D8342C59E32D00AA3EB6 /* RMITView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +172,7 @@
 		3FF74CB12C550FD300A27C7A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C3B0D82A2C59D61E00AA3EB6 /* contact.json */,
 				3FF74CB22C550FEC00A27C7A /* Contact.swift */,
 				3FF74CB62C5510D600A27C7A /* ModelData.swift */,
 			);
@@ -271,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B0D82B2C59D61E00AA3EB6 /* contact.json in Resources */,
 				3F6B816C2C54ED450047A97B /* Preview Assets.xcassets in Resources */,
 				3F6B81692C54ED450047A97B /* Assets.xcassets in Resources */,
 			);
@@ -298,12 +311,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF74CB32C550FEC00A27C7A /* Contact.swift in Sources */,
+				C3B0D8332C59DF8E00AA3EB6 /* GreetingView.swift in Sources */,
 				3F6B81912C54F50B0047A97B /* InfoView.swift in Sources */,
 				3F6B81932C54F85A0047A97B /* ContactCard.swift in Sources */,
 				3F6B818F2C54EF840047A97B /* CircleView.swift in Sources */,
 				3F6B81672C54ED430047A97B /* ContentView.swift in Sources */,
 				3FF74CB72C5510D600A27C7A /* ModelData.swift in Sources */,
+				C3B0D82D2C59DA1C00AA3EB6 /* WelcomeView.swift in Sources */,
 				3FF74CB92C55143000A27C7A /* ContactList.swift in Sources */,
+				C3B0D8352C59E32D00AA3EB6 /* RMITView.swift in Sources */,
 				3FF74CBB2C55215200A27C7A /* MapView.swift in Sources */,
 				3FF74CB52C55108C00A27C7A /* ContactRow.swift in Sources */,
 				3F6B81652C54ED430047A97B /* ContactListApp.swift in Sources */,

@@ -9,16 +9,22 @@ import Foundation
 import SwiftUI
 import MapKit
 
-struct Contact: Identifiable{
-    var id = UUID()
-    var name: String
+struct Contact: Codable, Identifiable{
     var email: String
-    var phone: String
+    var id: Int
+    var phone, imageName, name: String
+    var coordinates: Coordinates
     
-    var imageName: String
     var image: Image {
         Image(imageName)
     }
     
-    var locationCoordinate: CLLocationCoordinate2D
+    var locationCoordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
+    }
 }
+
+struct Coordinates: Codable {
+    var latitude, longitude: Double
+}
+
